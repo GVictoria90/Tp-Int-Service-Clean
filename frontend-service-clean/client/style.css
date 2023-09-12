@@ -1,0 +1,63 @@
+.nav-link {
+    display: block;
+    padding: 0.5rem, 1rem;
+    color: #007bff;
+}
+
+
+
+body {
+
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: whitesmoke;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+
+}
+
+.body-1 {
+    background-image: url('https://tunegociodelimpieza.com/wp-content/uploads/2020/08/conseguir-clientes-negocio-limpieza-724x360.jpg');
+}
+
+.body-2 {
+    background-image: url('https://www.ayudafamiliar.es/blog/wp-content/uploads/2019/11/como-empezar-a-limpiar-una-casa-muy-sucia.jpg');
+}
+
+.body-3 {
+    background-image: url('https://www.interdomicilio.com/wp-content/uploads/2018/07/empresa-de-limpieza-en-alcorcon.jpg');
+}
+
+
+
+h1 {
+    color: #007bff;
+}
+
+p {
+    color: #333;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajustar márgenes para dispositivos pequeños */
+@media (max-width: 768px) {
+    .container {
+        margin-top: 50px;
+    }
+}
+
+.card{
+    --bs-card-bg: none;
+}
+
